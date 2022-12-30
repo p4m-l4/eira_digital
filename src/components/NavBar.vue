@@ -21,18 +21,18 @@
                     </router-link>
 					</li>
 					<li class="nav-item">
-                        <router-link to ='/technologies'>
-						<a class="nav-link">Technologies</a>
-                        </router-link>
-					</li>
-					<li class="nav-item">
 						<router-link to = "/offer">
                             <a class="nav-link">Offer</a>
                         </router-link>
 					</li>
+					<li class="nav-item">
+                        <router-link to ='/technologies'>
+						<a class="nav-link">Technologies</a>
+                        </router-link>
+					</li>
 				</ul>
 				<div class="d-flex" role="search">
-					<h5>Start A Project</h5>
+					<h6 style="padding-right: 100px">Start A Project</h6>
                 </div>
 			</div>
 		</div>

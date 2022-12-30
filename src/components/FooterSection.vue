@@ -1,13 +1,5 @@
 <template>
 	<div class="bottom">
-		<div class="row statement container-fluid d-flex align-items-center">
-			<div class="col-8">
-				<h3>Enough talk, Let's build Something Together</h3>
-			</div>
-			<div class="col-4">
-				<a class="btn btn-primary btn-lg" href="#" role="button">Link</a>
-			</div>
-		</div>
 		<div
 			class="container-fluid footer row"
 			style="
@@ -24,7 +16,7 @@
 				class="col-4"
 				style="border-width: 0px; border-color: yellow; border-style: dashed; margin-left: 100px; "
 			>
-				<h5 class="footer-heading">Want to work with us?</h5>
+				<h5 class="footer-heading"><strong>Want to work with us?</strong></h5>
 				<p style="width:500px">
 					We build technology rich app and solutions which gives best user experience. We
 					always use latest technologies and methodology to build the products. We are
@@ -37,7 +29,7 @@
 				class="col-3"
 				style="border-width: 0px; border-color: purple; border-style: dashed"
 			>
-				<h5 class="footer-heading1">Services</h5>
+				<h5 class="footer-heading1"><strong>Services</strong></h5>
 				<ul class="list">
 					<li>UI/UX Design</li>
 					<li>Web App Development</li>
@@ -49,7 +41,7 @@
 				class="col-4"
 				style="border-width: 0px; border-color: yellow; border-style: dashed"
 			>
-				<h5 class="footer-heading1">Academy</h5>
+				<h5 class="footer-heading1"><strong>Academy</strong></h5>
 				<ul class="list">
 					<li>Mobile App Academy</li>
 					<li>Web Academy</li>
@@ -66,14 +58,7 @@ export default {};
 </script>
 
 <style>
-.statement {
-	background-color: rgb(0, 0, 0);
-	color: rgb(255, 255, 255);
-	height: 20vh;
-	margin-top: 100px;
-	margin-block: 50px;
-    font-weight: bolder;
-}
+
 .footer {
 }
 .list {

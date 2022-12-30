@@ -2,7 +2,6 @@
     <div>
         <BodyOffer/>
     </div>
-	<div>Services</div>
 </template>
 
 <script>
